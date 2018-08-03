@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArrayOfGeoConn xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GeoConn>
+    <Broker>GDE</Broker>
+    <Server></Server>
+  </GeoConn>
+  <GeoConn>
+    <Broker>mvsp.nycnet:4036</Broker>
+    <Server>P030A/GEOXSERVER/GEOSUPPORTSERVICE</Server>
+  </GeoConn>
+  <GeoConn>
+    <Broker>mvsp.nycnet:4074</Broker>
+    <Server>P030A/GEOXSERVER/GEOSUPPORTSERVICE</Server>
+  </GeoConn>
+  <GeoConn>
+    <Broker>mvsp.nycnet:4055</Broker>
+    <Server>T030A/GEOXSERVER/GEOSUPPORTSERVICE</Server>
+  </GeoConn>
+</ArrayOfGeoConn>

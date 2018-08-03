@@ -1,0 +1,183 @@
+body {
+  color: #000000;
+  background: #f4f4f4; }
+
+a {
+  color: #000000; }
+  a:hover {
+    opacity: .95;
+    text-decoration: none; }
+
+.top-5-border {
+  border-top: solid 5px #d96b27; }
+
+header {
+  background: #ffffff;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: -5px; }
+
+.content {
+  padding: 89px 0; }
+
+.bg-base {
+  background: #d96b27;
+  color: #ffffff; }
+
+.py-2 {
+  padding: 20px 0; }
+
+.py-3 {
+  padding: 30px 0; }
+
+.mb {
+  margin-bottom: 15px; }
+
+.box-b-shadow {
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2); }
+
+.bottom-5-border {
+  border-bottom: solid 5px #000000; }
+
+.b-section-bg {
+  background: #dd732a url(../images/banner-bg.jpg) repeat-x bottom;
+  color: #ffffff; }
+
+.banner {
+  padding: 30px;
+  font-size: 1.2em; }
+  .banner h3 {
+    margin: 0 0 10px; }
+
+.btn {
+  border-radius: 0; }
+
+.btn-lg {
+  padding: 10px 55px; }
+
+.btn-primary {
+  border: 1px solid #000000;
+  background: #000000;
+  color: #ffffff; }
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus {
+        background: #898989;
+        border: 1px solid #000000;
+    }
+.btn-primary:active:hover {
+    background: #afafaf;
+    color: #000;
+    border: 1px solid #000000;
+}
+
+.navigation-indicator {
+    background: #d96b27;
+    color: #ffffff;
+    padding: 15px;
+    border-left: solid 5px #000;
+    margin-left: -15px;
+    text-transform: uppercase;
+}
+  .navigation-indicator span {
+    font-weight: bold; }
+  .navigation-indicator:after {
+    content: " ";
+    background: url(../images/arrow-left.png) no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    right: -5px;
+    width: 25px;
+    height: 25px; }
+
+.select-items {
+  margin-bottom: 10px; }
+  .select-items .list-group-item,
+  .select-items td {
+    border: 1px solid #898989;
+    padding: 10px 20px !important;
+    background-color: #898989;
+    color: #ffffff;
+    margin: 0 0 10px 0;
+    text-align: center;
+    border-radius: 0;
+    cursor: pointer;
+    border-right: 4px solid #ffffff; }
+    .select-items .list-group-item label,
+    .select-items td label {
+      font-weight: normal;
+      cursor: pointer;
+      margin: 0; }
+    .select-items .list-group-item span,
+    .select-items td span {
+      display: block;
+      font-weight: 600; }
+    .select-items .list-group-item input[type=radio],
+    .select-items td input[type=radio] {
+      display: block;
+      margin: 0 auto; }
+  .select-items .list-group-item.active,
+  .select-items .list-group-item.active:focus,
+  .select-items .list-group-item.active:hover,
+  .select-items td.active,
+  .select-items td.active:focus,
+  .select-items td.active:hover {
+    background-color: #000000;
+    border-color: #000000; }
+    .select-items .list-group-item.active:after,
+    .select-items .list-group-item.active:focus:after,
+    .select-items .list-group-item.active:hover:after,
+    .select-items td.active:after,
+    .select-items td.active:focus:after,
+    .select-items td.active:hover:after {
+      content: " ";
+      background: url(../images/arrow-down.png) no-repeat;
+      position: absolute;
+      bottom: -15px;
+      width: 25px;
+      height: 25px;
+      left: 50%;
+      margin-left: -12px; }
+  @media (max-width: 768px) {
+    .select-items .list-group-item {
+      width: 49%; } }
+
+.form-control {
+  border-radius: 0; }
+
+.upload-field {
+  max-width: 500px;
+  height: auto;
+}
+
+#MainContent_RadioButtonList1 {
+    margin-left: 0;
+}
+
+.check-box table tr td {
+    padding: 5px 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+  .check-box table tr td label {
+    cursor: pointer;
+    margin: 0 0 0 5px; }
+
+.footer-bg {
+  background: #cecece; }
+
+footer {
+  text-align: center; }
+  footer .footer-top {
+    background: #898989;
+    padding: 10px 0;
+    color: #ffffff; }
+    footer .footer-top ul {
+      font-weight: bold;
+      margin: 0;
+      text-transform: uppercase; }
+      footer .footer-top ul a {
+        color: #ffffff; }
+
+/*# sourceMappingURL=custom.css.map */

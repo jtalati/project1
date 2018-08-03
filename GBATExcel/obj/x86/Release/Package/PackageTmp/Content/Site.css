@@ -1,0 +1,245 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+
+
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background: #EEEEEE;
+}
+
+
+
+.modal
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: black;
+        z-index: 99;
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+        -moz-opacity: 0.8;
+        min-height: 100%;
+        width: 100%;
+    }
+    .loading
+    {
+        margin-top: 10px;
+        font-family: Arial;
+        font-size: 10pt;
+        border: 5px solid #67CFF5;
+        width: 200px;
+        height: 200px;
+        display: none;
+        position: fixed;
+        background-color: white;
+        z-index: 999;
+    }
+
+#GridViewPage {
+    background: url('/WebGbat/Images/brooklyn-bridge.jpeg') no-repeat fixed;
+}
+
+#OutputSelectPage {
+    background: url('/WebGbat/Images/ferry.jpg') center;
+}
+
+#ResultsPage {
+    background: url('/WebGbat/Images/statue-of-liberty.jpg') no-repeat fixed;
+}
+
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="select"] {
+    max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+}
+
+/* Overide Bootstrap for custom design */
+
+.navbar-inverse {
+    height: 3cm;
+}
+
+.container {
+    max-width: 100%;
+    width: 100%;
+}
+
+
+#dcp-logo {
+    margin-top: -2.5em;
+}
+
+#WebGBAT-logo {
+    margin-top: -0.25em;
+}
+
+#functiontable-box {
+    text-align:center;
+   height: 91px;
+   /*width: 30cm;*/
+   width: 25cm;
+   /*width: auto;*/
+   /*opacity: 0.90;*/
+   margin-bottom: -40px !Important;
+   margin-top: -120px !Important;
+   border-collapse: separate !important;
+   /*border: solid 3px;
+   border-color: white;*/
+}
+
+#function-box {
+    width: 30cm;
+    opacity: 0.85;
+    border-radius: 25px; 
+    padding: 20px;
+    /*border: solid 3px;*/
+    /*border-color: white !important;*/
+    box-shadow: 10px 10px 5px #888888;
+    background:yellow;
+}
+
+#fileupload-box{
+     width: 30cm;
+    /*opacity: 0.90;*/
+    border-radius: 25px; 
+    padding: 20px;
+    margin-top: 45px !important;
+    /*border: solid 3px;*/
+    /*border-color: white !important;*/
+}
+
+body {
+    color: black;
+}
+
+#opaquetd {
+    opacity: 0.85;
+    border-radius: 25px; 
+    padding: 20px;
+    border-color: white !important;
+    box-shadow: 10px 10px 5px #888888;
+}
+.btn-primary {
+    color: white;
+    background-color: black;
+    border-radius: 0px;
+}
+
+.btn-primary:hover {
+    color: black;
+    background-color: white;
+    
+}
+
+#MainContent_FileUpload1 {
+    width:30%;
+    /*margin-left:41%;*/
+    margin-left:36%;
+    margin-right:35%;
+}
+
+#MainContent_RadioButtonList1 {
+    width:100%;
+}
+
+#auto-style1 {
+    /*width: 500px;*/
+    width: 350px;
+    opacity: 0.85;
+    background-color:#C0C0C0;
+    margin-top: 10px !important;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #888888;
+    border-collapse: separate;
+    /*border: 3px solid;
+    border-color: white;*/
+}
+
+.results th {
+    border:solid 1.5px;
+    border-color:black;
+    min-width: 150px;
+    text-align: center;
+}
+
+/*.main-div {
+    height: 500px;
+    overflow:scroll;
+}*/
+
+.ListBoxRow {
+    background:red;
+}
+
+.container {
+    width: 100%;
+}
+
+.row-title {
+    font-weight: bold;
+    color: white !important;
+    font-size: 27px;
+}
+
+
+.footer-div {
+    background-color: #EEEEEE;
+    padding-bottom: 20px;
+}
+
+.col-md-3 {
+    width: 29%;
+}
+
+.next-previous-buttons {
+    padding: 6px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.GoatHeader{
+    font-family: Verdana, Arial, Helvetica;
+    font-size: 12px !important;
+    color: white;
+    width: 90%;
+    /*text-align: justify;*/
+}
+
+#columnControlButtons {
+    margin-bottom: 2em;
+    margin-top: 1em;
+    width: 100%;
+    text-align: center;
+}
+
